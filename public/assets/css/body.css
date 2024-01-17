@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format('woff2');
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FCFAEF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-body {
+    background-color: rgba(0, 0, 0, 0.25);
+    min-height: 150px;
+}
+
+.box-det {
+    height: 250px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .card-body {
+    background-color: #f15b2967;
+    border: 2px solid #F15A29;
+}
+
+.slide {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+.card-body:hover .slide {
+max-height: 100px;
+}

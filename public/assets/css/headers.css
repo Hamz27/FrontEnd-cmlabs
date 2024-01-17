@@ -1,0 +1,32 @@
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+  outline: 0;
+}
+
+header, footer {
+  background-color: #F15A29;
+}
+
+header a span, footer p, footer a h5, .nav-link{
+  color: #FCFAEF;
+}
+
+.nav-item {
+  margin-left: 3px;
+}
+
+.nav-link:hover, .highlight {
+  background-color: #FCFAEF;
+  color: #F15A29;
+}
